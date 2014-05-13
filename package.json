@@ -1,0 +1,16 @@
+{
+  "name": "open-in-gitx",
+  "main": "./lib/open-in-gitx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Opens the current project in GitX",
+  "activationEvents": [
+    "open-in-gitx:open"
+  ],
+  "repository": "https://github.com/nfo/atom-open-in-gitx",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
