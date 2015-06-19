@@ -2,7 +2,7 @@ exec = require("child_process").exec
 
 module.exports =
   activate: (state) ->
-    atom.workspaceView.command "open-in-gitx:open", => @openApp()
+    atom.commands.add 'atom-workspace', 'open-in-gitx:open', => @openApp()
 
   openApp: ->
     path = atom.project?.getPath()
