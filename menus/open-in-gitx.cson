@@ -1,7 +1,6 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.overlayer':
-      'Open in GitX': 'open-in-gitx:open'
+  'atom-workspace': [{ label: 'Open in GitX', command: 'open-in-gitx:open' }]
 
 'menu': [
   {
