@@ -1,11 +1,13 @@
 {
   "name": "open-in-gitx",
   "main": "./lib/open-in-gitx",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "description": "Opens the current project in GitX",
   "activationCommands": {
-    "atom-workspace": ["open-in-gitx:open"]
+    "atom-workspace": [
+      "open-in-gitx:open"
+    ]
   },
   "repository": "https://github.com/nfo/atom-open-in-gitx",
   "license": "MIT",
