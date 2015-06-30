@@ -1,7 +1,7 @@
 {
   "name": "open-in-gitx",
   "main": "./lib/open-in-gitx",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "private": true,
   "description": "Opens the current project in GitX",
   "activationCommands": {
