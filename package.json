@@ -4,9 +4,9 @@
   "version": "0.2.0",
   "private": true,
   "description": "Opens the current project in GitX",
-  "activationEvents": [
-    "open-in-gitx:open"
-  ],
+  "activationCommands": {
+    "atom-workspace": ["open-in-gitx:open"]
+  },
   "repository": "https://github.com/nfo/atom-open-in-gitx",
   "license": "MIT",
   "engines": {
