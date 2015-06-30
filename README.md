@@ -8,9 +8,15 @@ Credits go to https://github.com/cliffrowley/atom-open-in-sourcetree.
 
 ## 0.1.1
 
-* Initial release 
+* Initial release
 
 ## 0.2.0
 
 * Fixed keyboard shortcut latest versions of Atom (@maxcnunes)
 * Added support for projects with multiple git repositories (@maxcnunes)
+
+## 0.2.1
+
+* Fixed activation commands (@maxcnunes)
+* Fixed context menu (@maxcnunes)
+* Fixed link to GitX (@christopherdarling)
